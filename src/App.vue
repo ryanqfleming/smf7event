@@ -30,7 +30,7 @@ import HelloWorld from './components/HelloWorld.vue'
             name: 'PECCY SCAVENGER HUNT - FRONT HALF',
             date: '2023-04-04',
             dateText: 'Tuesday April 4th',
-            img: 'src/assets/images/peccy.png',
+            img: 'public/images/peccy.png',
             color: 'brown',
             details: 'Find a Peccy and turn it into your manager for a prize! Peccy is our internal mascot. He will be placed throughout the building during day and night shift!',
             time: 'All Day'
@@ -40,7 +40,7 @@ import HelloWorld from './components/HelloWorld.vue'
             name: 'PECCY SCAVENGER HUNT - BACK HALF',
             date: '2023-04-06',
             dateText: 'Tuesday April 6th',
-            img: 'src/assets/images/peccy.png',
+            img: 'public/images/peccy.png',
             color: 'brown',
             details: 'Find a Peccy and turn it into your manager for a prize! Peccy is our internal mascot. He will be placed throughout the building during day and night shift!',
             time: 'All Day'
@@ -50,7 +50,7 @@ import HelloWorld from './components/HelloWorld.vue'
             name: 'PET BOARD',
             date: '2023-04-14',
             dateText: 'Monday - Friday 4/10 - 4/14',
-            img: 'src/assets/images/thepets.jpg',
+            img: 'public/images/thepets.jpg',
             color: 'brown',
             details: 'Share your pet pics and receive a gift for your pet. Make sure when you post your pet picture to include your login ',
             time: 'All Week'
@@ -60,7 +60,7 @@ import HelloWorld from './components/HelloWorld.vue'
             name: 'NATIONAL PET DAY',
             date: '2023-04-11',
             dateText: 'Tuesday 4/11',
-            img: 'src/assets/images/pets2.jfif',
+            img: 'public/images/pets2.jfif',
             color: 'brown',
             details: 'Give your pet some extra care on National Pet Day!',
             time: 'All Week'
@@ -70,7 +70,7 @@ import HelloWorld from './components/HelloWorld.vue'
             name: 'EARTH DAY',
             date: '2023-04-22',
             dateText: 'Saturday 4/22',
-            img: 'src/assets/images/earth.jfif',
+            img: 'public/images/earth.jfif',
             color: 'brown',
             details: 'SMF7 is putting together a volunteer event for earth day. Stay tuned for more information',
             time: 'All Day'
@@ -81,7 +81,7 @@ import HelloWorld from './components/HelloWorld.vue'
             name: 'CINCO DE MAYO - FRONT HALF',
             date: '2023-05-02',
             dateText: 'Tuesday 5/2',
-            img: 'src/assets/images/cinco.webp',
+            img: 'public/images/cinco.webp',
             color: 'brown',
             details: 'Stay tuned for a Cinco De Mayo event. We are still in the planning process!',
             time: 'All Day'
@@ -91,7 +91,7 @@ import HelloWorld from './components/HelloWorld.vue'
             name: 'CINCO DE MAYO - BACK HALF',
             date: '2023-05-04',
             dateText: 'Thursday 5/4',
-            img: 'src/assets/images/cinco.webp',
+            img: 'public/images/cinco.webp',
             color: 'brown',
             details: 'Stay tuned for a Cinco De Mayo event. We are still in the planning process!',
             time: 'All Day'
@@ -101,7 +101,7 @@ import HelloWorld from './components/HelloWorld.vue'
             name: 'CINCO DE MAYO',
             date: '2023-05-04',
             dateText: 'Thursday 5/4',
-            img: 'src/assets/images/cinco.webp',
+            img: 'public/images/cinco.webp',
             color: 'brown',
             details: 'We might not do any events on the day itself',
             time: 'All Day'
@@ -111,7 +111,7 @@ import HelloWorld from './components/HelloWorld.vue'
             name: 'MOTHERS DAY - FRONT HALF',
             date: '2023-05-09',
             dateText: 'Tuesday 5/9',
-            img: 'src/assets/images/mom.jfif',
+            img: 'public/images/mom.jfif',
             color: 'brown',
             details: 'For Mothers Day we will be hosting a Mothers of History trivia using kahoot',
             time: 'During Lunch for day and night shift'
@@ -121,7 +121,7 @@ import HelloWorld from './components/HelloWorld.vue'
             name: 'MOTHERS DAY - BACK HALF',
             date: '2023-05-11',
             dateText: 'Thursday 5/11',
-            img: 'src/assets/images/mom.jfif',
+            img: 'public/images/mom.jfif',
             color: 'brown',
             details: 'For Mothers Day we will be hosting a Mothers of History trivia using kahoot',
             time: 'During Lunch for day and night shift'
@@ -131,7 +131,7 @@ import HelloWorld from './components/HelloWorld.vue'
             name: 'MOTHERS DAY',
             date: '2023-05-11',
             dateText: 'Sunday 4/14',
-            img: 'src/assets/images/mom.jfif',
+            img: 'public/images/mom.jfif',
             color: 'brown',
             details: 'Celebrating mom\'s everywhere!',
             Time: 'All day'
@@ -141,7 +141,7 @@ import HelloWorld from './components/HelloWorld.vue'
             name: 'ARIZONA TEA BAR - FRONT HALF',
             date: '2023-06-06',
             dateText: 'Tuesday 6/6',
-            img: 'src/assets/images/tea.jfif',
+            img: 'public/images/tea.jfif',
             color: 'brown',
             details: 'For National Tea day we will be giving out Arizona Tea!',
             time:'During lunch for day and night shift'
@@ -151,7 +151,7 @@ import HelloWorld from './components/HelloWorld.vue'
             name: 'ARIZONA TEA BAR - BACK HALF',
             date: '2023-06-08',
             dateText: 'Thursday 6/8',
-            img: 'src/assets/images/tea.jfif',
+            img: 'public/images/tea.jfif',
             color: 'brown',
             details: 'For National Tea day we will be giving out Arizona Tea!',
             time:'During lunch for day and night shift'
@@ -161,7 +161,7 @@ import HelloWorld from './components/HelloWorld.vue'
             name: 'NATIONAL ICE TEA DAY',
             date: '2023-06-10',
             dateText: 'Saturday 6/10',
-            img: 'src/assets/images/tea.jfif',
+            img: 'public/images/tea.jfif',
             color: 'brown',
             details: 'Drink a cold one!'
           },
@@ -170,7 +170,7 @@ import HelloWorld from './components/HelloWorld.vue'
             name: 'NATIONAL PINK DAY - FRONT HALF',
             date: '2023-06-19',
             dateText: 'Monday 6/19',
-            img: 'src/assets/images/pink.jfif',
+            img: 'public/images/pink.jfif',
             color: 'brown',
             details: 'Wear Pink to receive E-swag!'
           },
@@ -179,7 +179,7 @@ import HelloWorld from './components/HelloWorld.vue'
             name: 'NATIONAL PINK DAY - BACK HALF',
             date: '2023-06-23',
             dateText: 'Friday 6/23',
-            img: 'src/assets/images/pink.jfif',
+            img: 'public/images/pink.jfif',
             color: 'brown',
             details: 'Wear Pink to receive E-swag!'
           },
