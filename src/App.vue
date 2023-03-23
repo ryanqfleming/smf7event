@@ -30,7 +30,7 @@ import HelloWorld from './components/HelloWorld.vue'
             name: 'PECCY SCAVENGER HUNT - FRONT HALF',
             date: '2023-04-04',
             dateText: 'Tuesday April 4th',
-            img: '../src/assets/images/peccy.png',
+            img: '@/src/assets/images/peccy.png',
             color: 'brown',
             details: 'Find a Peccy and turn it into your manager for a prize! Peccy is our internal mascot. He will be placed throughout the building during day and night shift!',
             time: 'All Day'
