@@ -1,0 +1,12 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color:honeydew;
+}
+
+.app {
+  width: 100%;
+}
+
