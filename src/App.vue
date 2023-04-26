@@ -80,11 +80,11 @@ import HelloWorld from './components/HelloWorld.vue'
             id:'5',
             name: 'CINCO DE MAYO - FRONT HALF',
             date: '2023-05-02',
-            dateText: 'Tuesday 5/2',
+            dateText: 'Monday 5/1',
             img: 'images/cinco.webp',
             color: 'brown',
-            details: 'Stay tuned for a Cinco De Mayo event. We are still in the planning process!',
-            time: 'All Day'
+            details: 'We will be hosting events in the Day 1 training room during lunch',
+            time: 'During lunch for day and night shift'
           },
           {
             id:'5',
@@ -93,18 +93,8 @@ import HelloWorld from './components/HelloWorld.vue'
             dateText: 'Thursday 5/4',
             img: 'images/cinco.webp',
             color: 'brown',
-            details: 'Stay tuned for a Cinco De Mayo event. We are still in the planning process!',
-            time: 'All Day'
-          },
-          {
-            id:'5',
-            name: 'CINCO DE MAYO',
-            date: '2023-05-04',
-            dateText: 'Thursday 5/4',
-            img: 'images/cinco.webp',
-            color: 'brown',
-            details: 'We might not do any events on the day itself',
-            time: 'All Day'
+            details: 'We will be hosting events in the Day 1 training room during lunch',
+            time: 'During lunch for day and Night shift'
           },
           {
             id:'5',
@@ -123,18 +113,8 @@ import HelloWorld from './components/HelloWorld.vue'
             dateText: 'Thursday 5/11',
             img: 'images/mom.jfif',
             color: 'brown',
-            details: 'For Mothers Day we will be hosting a Mothers of History trivia using kahoot',
+            details: 'Mothers Day create your own Card! Starting 4/8 please use the card making supplies in the main break room to make your mom a card.',
             time: 'During Lunch for day and night shift'
-          },
-          {
-            id:'5',
-            name: 'MOTHERS DAY',
-            date: '2023-05-11',
-            dateText: 'Sunday 4/14',
-            img: 'images/mom.jfif',
-            color: 'brown',
-            details: 'Celebrating mom\'s everywhere!',
-            Time: 'All day'
           },
           {
             id:'5',
@@ -204,8 +184,8 @@ import HelloWorld from './components/HelloWorld.vue'
     
   }
   .forContainer{
-    margin: 8px;
-    margin-bottom: 20px;
+    margin: 0px;
+    margin-bottom: 0px;
     border-radius: 25px;
    box-shadow: 10px 10px 34px -11px rgba(184,184,184,1); 
    background-position: bottom;
