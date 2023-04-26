@@ -184,8 +184,8 @@ import HelloWorld from './components/HelloWorld.vue'
     
   }
   .forContainer{
-    margin: 0px;
-    margin-bottom: 0px;
+    max-width: 800px;
+    margin: auto;
     border-radius: 25px;
    box-shadow: 10px 10px 34px -11px rgba(184,184,184,1); 
    background-position: bottom;
