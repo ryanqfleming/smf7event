@@ -98,19 +98,9 @@ import HelloWorld from './components/HelloWorld.vue'
           },
           {
             id:'5',
-            name: 'MOTHERS DAY - FRONT HALF',
-            date: '2023-05-09',
-            dateText: 'Tuesday 5/9',
-            img: 'images/mom.jfif',
-            color: 'brown',
-            details: 'For Mothers Day we will be hosting a Mothers of History trivia using kahoot',
-            time: 'During Lunch for day and night shift'
-          },
-          {
-            id:'5',
-            name: 'MOTHERS DAY - BACK HALF',
+            name: 'MOTHERS DAY',
             date: '2023-05-11',
-            dateText: 'Thursday 5/11',
+            dateText: 'All week',
             img: 'images/mom.jfif',
             color: 'brown',
             details: 'Mothers Day create your own Card! Starting 4/8 please use the card making supplies in the main break room to make your mom a card.',
