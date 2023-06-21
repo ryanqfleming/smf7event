@@ -6,14 +6,14 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <div class="titleHeader">SMF7 Event Calender</div> 
   <div class="forContainer" :style="{ backgroundImage: 'linear-gradient(rgb(0,0,0,0.9),rgb(0,0,0,0.9)), url(' + event.img + ')', backgroundBlendMode: 'multiply'}" v-for="event in events" >
-  <div class="forChild" v-if="Date.now() < new Date(event.date)">
-  <div class="childTitle">{{ event.name }}</div>
-  <div class="childBody">
-    <div class="timeInfo"><span>Date:  </span> {{ event.dateText }}</div>
-    <div><span>Time: </span>{{ event.time }} <br><br></div>
-    <div class="eventInfo"><span>Information: </span>{{ event.details }}</div>
-    <div class="artwork"><img :src= "event.img"  /></div>
-  </div>
+  <div class="forChild" v-if="Date.now() <= new Date(event.date)">
+    <div class="childTitle">{{ event.name }}</div>
+      <div class="childBody">
+      <div class="timeInfo"><span>Date:  </span> {{ event.dateText }}</div>
+      <div><span>Time: </span>{{ event.time }} <br><br></div>
+      <div class="eventInfo"><span>Information: </span>{{ event.details }}</div>
+      <div class="artwork"><img :src= "event.img"  /></div>
+    </div>
   </div>
   
   </div>
@@ -26,132 +26,104 @@ import HelloWorld from './components/HelloWorld.vue'
       return {
         events : [
           {
-            id:'1',
-            name: 'PECCY SCAVENGER HUNT - FRONT HALF',
-            date: '2023-04-04',
-            dateText: 'Tuesday April 4th',
-            img: 'images/peccy.png',
+            id:'5',
+            name: '4th of July BBQ - Front Half',
+            date: '2023-07-03',
+            dateText: 'Monday July 3rd',
+            time: 'During lunch for day and night shifts',
+            img: 'images/4th.jpeg',
             color: 'brown',
-            details: 'Find a Peccy and turn it into your manager for a prize! Peccy is our internal mascot. He will be placed throughout the building during day and night shift!',
-            time: 'All Day'
-          },
-          {
-            id:'2',
-            name: 'PECCY SCAVENGER HUNT - BACK HALF',
-            date: '2023-04-06',
-            dateText: 'Tuesday April 6th',
-            img: 'images/peccy.png',
-            color: 'brown',
-            details: 'Find a Peccy and turn it into your manager for a prize! Peccy is our internal mascot. He will be placed throughout the building during day and night shift!',
-            time: 'All Day'
-          },
-          {
-            id:'3',
-            name: 'PET BOARD',
-            date: '2023-04-14',
-            dateText: 'Monday - Friday 4/10 - 4/14',
-            img: 'images/thepets.jpg',
-            color: 'brown',
-            details: 'Share your pet pics and receive a gift for your pet. Make sure when you post your pet picture to include your login ',
-            time: 'All Week'
-          },
-          {
-            id:'4',
-            name: 'NATIONAL PET DAY',
-            date: '2023-04-11',
-            dateText: 'Tuesday 4/11',
-            img: 'images/pets2.jfif',
-            color: 'brown',
-            details: 'Give your pet some extra care on National Pet Day!',
-            time: 'All Week'
+            details: 'We will be having BBQ hot dogs and games in the parking lot'
           },
           {
             id:'5',
-            name: 'EARTH DAY',
-            date: '2023-04-22',
-            dateText: 'Saturday 4/22',
-            img: 'images/earth.jfif',
+            name: '4th of July BBQ - Back Half',
+            date: '2023-07-06',
+            dateText: 'Thursday July 6th',
+            time: 'During lunch for day and night shifts',
+            img: 'images/4th.jpeg',
             color: 'brown',
-            details: 'SMF7 is putting together a volunteer event for earth day. Stay tuned for more information',
-            time: 'All Day'
+            details: 'We will be having BBQ hot dogs and games in the parking lot'
           },
-        
           {
-            id:'5',
-            name: 'CINCO DE MAYO - FRONT HALF',
-            date: '2023-05-02',
-            dateText: 'Monday 5/1',
-            img: 'images/cinco.webp',
-            color: 'brown',
-            details: 'We will be hosting events in the Day 1 training room during lunch',
-            time: 'During lunch for day and night shift'
+            id: '5',
+            name: 'Hero Spirit Days',
+            date: '2023-07-14',
+            dateText: 'All week Monday - Friday, 7/10 - 7/14',
+            img: 'images/hero.jpg',
+            details: 'See either a member of HR or the the Admin who works 11AM - 7:30PM near the entrance of the building to claim your Eswag'
           },
           {
             id:'5',
-            name: 'CINCO DE MAYO - BACK HALF',
-            date: '2023-05-04',
-            dateText: 'Thursday 5/4',
-            img: 'images/cinco.webp',
-            color: 'brown',
-            details: 'We will be hosting events in the Day 1 training room during lunch',
-            time: 'During lunch for day and Night shift'
+            name: 'Prime Shirt Hand-out - Front Half',
+            date: '2023-07-10',
+            dateText: 'Monday July 10th',
+            time: 'During shift change 5:30PM - 6:30PM',
+            img: 'images/prime.png',
+            details: 'Everyone will get 1 prime shirt! Shirts will be handed out near the entrance.'
+          },
+          {
+            id: '5',
+            name: 'Amazon fact trivia with Kahoot',
+            date: '2023-07-11',
+            dateText: 'Tuesday July 11',
+            time: 'During lunch in the main breakroom',
+            img: 'images/kahoot.jpg',
+            details: 'Test your Amazon history facts and win prizes!',
+          },
+          {
+            id: '5',
+            name: 'Cool down with snowcones',
+            date: '2023-07-12',
+            dateText: 'Wednesday July 7th during lunch',
+            time: 'During lunch for day and night shift',
+            img: 'images/snowcone.jpg',
+            details: 'Cool down and enjoy a snow cone'
           },
           {
             id:'5',
-            name: 'MOTHERS DAY',
-            date: '2023-05-11',
-            dateText: 'All week',
-            img: 'images/mom.jfif',
-            color: 'brown',
-            details: 'Mothers Day create your own Card! Starting 4/8 please use the card making supplies in the main break room to make your mom a card.',
-            time: 'During Lunch for day and night shift'
+            name: 'Prime Shirt Hand-out - Back Half',
+            date: '2023-07-13',
+            dateText: 'Monday July 13th',
+            time: 'During shift change 5:30PM - 6:30PM',
+            img: 'images/prime.png',
+            details: 'Everyone will get 1 prime shirt! Shirts will be handed out near the entrance.'
           },
           {
-            id:'5',
-            name: 'ARIZONA TEA BAR - FRONT HALF',
-            date: '2023-06-06',
-            dateText: 'Tuesday 6/6',
-            img: 'images/tea.jfif',
-            color: 'brown',
-            details: 'For National Tea day we will be giving out Arizona Tea!',
-            time:'During lunch for day and night shift'
+            id: '5',
+            name: 'Amazon fact trivia with Kahoot',
+            date: '2023-07-13',
+            dateText: 'Tuesday July 13',
+            time: 'During lunch in the main breakroom',
+            img: 'images/kahoot.jpg',
+            details: 'Test your Amazon history facts and win prizes!',
+          },
+          {
+            id: '5',
+            name: 'Friday popcorn!',
+            date: '2023-07-14',
+            dateText: 'Friday July 14th',
+            time: 'During lunch in the main breakroom',
+            img: 'images/popcorn.jpg',
+            details: 'Enjoy some fresh popcorn during your lunch'
+          },
+          {
+            id: '5',
+            name: 'Thank you Ice cream - Front Half',
+            date: '2023-07-18',
+            dateText: 'Tuesday July 18th',
+            time: 'During lunch',
+            img: 'images/icecream.jpg',
+            details: 'Enjoy a scoop of vanilla ice cream'
           },
            {
-            id:'5',
-            name: 'ARIZONA TEA BAR - BACK HALF',
-            date: '2023-06-08',
-            dateText: 'Thursday 6/8',
-            img: 'images/tea.jfif',
-            color: 'brown',
-            details: 'For National Tea day we will be giving out Arizona Tea!',
-            time:'During lunch for day and night shift'
-          },
-           {
-            id:'5',
-            name: 'NATIONAL ICE TEA DAY',
-            date: '2023-06-10',
-            dateText: 'Saturday 6/10',
-            img: 'images/tea.jfif',
-            color: 'brown',
-            details: 'Drink a cold one!'
-          },
-          {
-            id:'5',
-            name: 'NATIONAL PINK DAY - FRONT HALF',
-            date: '2023-06-19',
-            dateText: 'Monday 6/19',
-            img: 'images/pink.jfif',
-            color: 'brown',
-            details: 'Wear Pink to receive E-swag!'
-          },
-          {
-            id:'5',
-            name: 'NATIONAL PINK DAY - BACK HALF',
-            date: '2023-06-23',
-            dateText: 'Friday 6/23',
-            img: 'images/pink.jfif',
-            color: 'brown',
-            details: 'Wear Pink to receive E-swag!'
+            id: '5',
+            name: 'Thank you Ice cream - Back Half',
+            date: '2023-07-20',
+            dateText: 'Thursday July 20th',
+            time: 'During lunch',
+            img: 'images/icecream.jpg',
+            details: 'Enjoy a scoop of vanilla ice cream'
           },
         ]
       }
