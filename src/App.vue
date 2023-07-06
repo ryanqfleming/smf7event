@@ -75,7 +75,7 @@ import HelloWorld from './components/HelloWorld.vue'
             id: '5',
             name: 'Cool down with snowcones',
             date: '2023-07-12',
-            dateText: 'Wednesday July 7th during lunch',
+            dateText: 'Wednesday July 12 during lunch',
             time: 'During lunch for day and night shift',
             img: 'images/snowcone.jpg',
             details: 'Cool down and enjoy a snow cone'
