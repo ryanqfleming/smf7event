@@ -125,6 +125,25 @@ import HelloWorld from './components/HelloWorld.vue'
             img: 'images/icecream.jpg',
             details: 'Enjoy a scoop of vanilla ice cream'
           },
+          {
+            id: '5',
+            name: 'Nacho Time',
+            date: '2023-08-01',
+            dateText: 'Tuesday August 1st',
+            time: ' During Lunch',
+            img: 'images/nacho.jpg',
+            details: 'Nachos with hot cheese served in the main breakroom during lunch for night and day shift'
+          },
+          {
+            id: '5',
+            name: 'Nacho Time',
+            date: '2023-08-03',
+            dateText: 'Thursday August 3rd',
+            time: ' During Lunch',
+            img: 'images/nacho.jpg',
+            details: 'Nachos with hot cheese served in the main breakroom during lunch for night and day shift'
+          },
+
         ]
       }
     }
