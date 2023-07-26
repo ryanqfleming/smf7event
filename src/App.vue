@@ -128,21 +128,41 @@ import HelloWorld from './components/HelloWorld.vue'
           {
             id: '5',
             name: 'Nacho Time',
-            date: '2023-08-01',
-            dateText: 'Tuesday August 1st',
+            date: '2023-08-03',
+            dateText: 'Thursday August 1st & 3rd',
             time: ' During Lunch',
             img: 'images/nacho.jpg',
             details: 'Nachos with hot cheese served in the main breakroom during lunch for night and day shift'
           },
           {
             id: '5',
-            name: 'Nacho Time',
-            date: '2023-08-03',
-            dateText: 'Thursday August 3rd',
-            time: ' During Lunch',
-            img: 'images/nacho.jpg',
-            details: 'Nachos with hot cheese served in the main breakroom during lunch for night and day shift'
+            name: 'Back to school donation drive',
+            date: '2023-08-10',
+            dateText: "Tuesday 8/8 & Thursday 8/10",
+            time: 'During shift change 5:30pm - 6:30PM',
+            img: 'images/ben.png',
+            details: 'Join us in assembling back to school kit bags for children that are unable to get supplies! Hosted by SMF7 Black Employee Network.'
           },
+          {
+            id: '5',
+            name: 'Purple Heart Day',
+            date: '2023-08-07',
+            dateText: 'Monday August 7th',
+            time:'All Day',
+            img: 'images/heart.jfif',
+            details: 'Wear purple to earn E-swag show respect for those injuried or paid the ultimate sacrifice in the line of duty. We will also have an information both so you can learn more about the Purple Heart Award'
+          },
+          {
+            id: '5',
+            name: 'Women\'s Equality Day',
+            date: '2023-08-24',
+            dateText: 'Tuesday August 22nd & Thursday 24th',
+            time: 'Startups and breaks',
+            img: 'images/women.jpg',
+            details: 'Women\'s Equality Day takes place on August 26th. We will be celebrating this day on Tuesday & Thursday the same week. There will be a gift handout during start of shift. We will do a toast during lunch for Day shift and First shift for Nights' 
+          },
+          
+
 
         ]
       }
