@@ -150,7 +150,7 @@ import HelloWorld from './components/HelloWorld.vue'
             dateText: 'Monday August 7th',
             time:'All Day',
             img: 'images/heart.jfif',
-            details: 'Wear purple to earn E-swag show respect for those injuried or paid the ultimate sacrifice in the line of duty. We will also have an information both so you can learn more about the Purple Heart Award'
+            details: 'Wear purple to earn E-swag show respect for those injuried or paid the ultimate sacrifice in the line of duty. We will also have an information booth so you can learn more about the Purple Heart Award'
           },
           {
             id: '5',
