@@ -154,6 +154,15 @@ import HelloWorld from './components/HelloWorld.vue'
           },
           {
             id: '5',
+            name: 'Root Beer Floats',
+            date: '2023-08-17',
+            dateText: 'Tuesday 8/15 and Thursday 8/17',
+            time: 'During lunch for day and night shift',
+            img: 'images/rootbeer.jpg',
+            details: 'We will be surving root beer floats in the main breakroom during lunch for day and night shift.'
+          },
+          {
+            id: '5',
             name: 'Women\'s Equality Day',
             date: '2023-08-24',
             dateText: 'Tuesday August 22nd & Thursday 24th',
@@ -161,6 +170,15 @@ import HelloWorld from './components/HelloWorld.vue'
             img: 'images/women.jpg',
             details: 'Women\'s Equality Day takes place on August 26th. We will be celebrating this day on Tuesday & Thursday the same week. There will be a gift handout during start of shift. We will do a toast during lunch for Day shift and First shift for Nights' 
           },
+          {
+            id: '5',
+            name: 'popcorn',
+            date:'2023-08-31',
+            dateText: 'Tuesday 8/29 & Thursday 8/31',
+            time: 'During lunch for day and night shift',
+            img: 'images/popcorn.jpg',
+            details: 'Yay for more popcorn during lunch in the main break room'
+          }
           
 
 
